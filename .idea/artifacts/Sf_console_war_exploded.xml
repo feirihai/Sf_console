@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Sf_console:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Sf_console_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Sf_console/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Sf_console" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
