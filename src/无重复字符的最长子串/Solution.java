@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Solution {
-    public int  lengthOfLongestSubstring(String s){
+    public static int  lengthOfLongestSubstring(String s){
         Map<Character,Integer> map = new HashMap<Character,Integer>();
         int right = 0;
         int max = 0;
@@ -19,5 +19,10 @@ public class Solution {
         }
 
         return max;
+    }
+
+    public static void main(String[] args) {
+        String a = "abcdba";
+        lengthOfLongestSubstring(a);
     }
 }
