@@ -31,6 +31,9 @@ public class Solution {
     public static void main(String[] args) {
         int []a =new int[]{1,2,3,2,2,2,5,4,2};
         int as = MoreThanHalfNum_Solution(a);
-        System.out.println(as);
+        int aa = 1;
+        int bb = 1;
+        int c = aa+++bb;
+        System.out.println(c);
     }
 }
